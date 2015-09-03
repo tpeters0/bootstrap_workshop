@@ -1,0 +1,75 @@
+.marketing hr {
+    margin: 40px auto;
+}
+
+.marketing {
+    background-color: #1A1D23;
+    color: #ddd;
+    padding: 60px;
+}
+
+.marketing .glyphicon {
+    font-size: 5em;
+}
+
+.newsletter {
+  padding: 20px;
+  text-align: center;
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+ .footer {
+   background-color: #1A1D23;
+   padding: 10px;
+   color: #ddd;
+   font-size: 20px;
+ }
+
+ .endorsements {
+     margin: 60px auto 40px auto;
+     max-width: 1800px;
+ }
+
+ .endorsements blockquote {
+     border: none;
+     background-color: #1A1D23;
+     color: #ddd;
+ }
+
+ blockquote h1 {
+     font-style: italic;
+ }
+
+ blockquote, .blockquote-reverse {
+     display: inline-block;
+     margin-bottom: 40px;
+     padding: 10px 20px;
+ }
+
+ .endorsements blockquote:nth-child(even) {
+     float: right;
+ }
+
+
+ @media (max-width: 767px) {
+     blockquote h1, blockquote footer {
+         font-size: 1em;
+         line-height: 1.2em;
+     }
+
+     .endorsements blockquote {
+         max-width: 85%;
+     }
+ }
+
+ @media (min-width: 768px) {
+     blockquote h1, blockquote footer {
+         font-size: 1.5em;
+         line-height: 1.3em;
+     }
+
+     .endorsements blockquote {
+         max-width: 65%;
+     }
+ }

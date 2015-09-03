@@ -51,16 +51,78 @@
      float: right;
  }
 
+ .main-banner {
+     background: url(../img/strainymood.jpg) no-repeat center center fixed;
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     min-height: 100vh;
+ }
 
+ .main-banner .banner-text {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+
+     font-family: 'Marcellus', serif;
+     color: white;
+ }
+
+ .main-banner .banner-text .logo {
+     font-family: 'Marcellus SC', serif;
+     /*font-size: 80px;*/
+     line-height: 80px;
+     white-space: nowrap;
+     margin-top: 0;
+     margin-bottom: 20px;
+     text-shadow: 2px 2px 6px #000;
+ }
+
+ .main-banner .social a, .sound-player {
+     color: #fff;
+     font-size: 34px;
+ }
+
+ .social {
+     margin-bottom: 60px;
+ }
+
+ .sound-player {
+     display: block;
+     width: 40px;
+     cursor: pointer;
+     margin: 0 auto 30px auto;
+ }
+
+ .featured-music {
+     font-size: 20px;
+     line-height: 20px;
+     white-space: nowrap;
+     text-shadow: 2px 2px 6px #000;
+ }
+
+ .featured-music a {
+     color: #fff;
+     text-decoration: underline;
+ }
  @media (max-width: 767px) {
      blockquote h1, blockquote footer {
          font-size: 1em;
          line-height: 1.2em;
      }
 
+     .logo {
+         font-size: 50px;
+     }
+
      .endorsements blockquote {
          max-width: 85%;
      }
+
  }
 
  @media (min-width: 768px) {
@@ -69,7 +131,12 @@
          line-height: 1.3em;
      }
 
+     .logo {
+         font-size: 80px;
+     }
+
      .endorsements blockquote {
          max-width: 65%;
      }
+
  }
